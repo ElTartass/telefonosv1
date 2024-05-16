@@ -159,7 +159,6 @@ body {
   transform: translateY(-300%);
 }
 
-/*PERSONALIZACION DE MIS ALERTAS Y MENSAJES */
 .form div .alerta {
   width: 290px;
   text-align: left;
@@ -194,8 +193,6 @@ body {
 .form .error {
   outline: solid 2px #9d2222;
 }
-
-/*RESPONSIVE FORM*/
 
 @media screen and (max-width:750px) {
   html {
@@ -233,9 +230,8 @@ nav {
   position: sticky;
   top: 0;
 }
-/*estilos del menu de inicio*/
 .logo img {
-  max-height: 40px; /* Ajusta el tamaño máximo del logo según tus necesidades */
+  max-height: 40px;
 }
 
 .header-right {
@@ -244,19 +240,19 @@ nav {
 }
 
 .search-form {
-  margin-right: 20px; /* Espacio entre la barra de búsqueda y el botón de inicio de sesión */
+  margin-right: 20px; 
 }
 
 .search-form input[type="text"] {
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  width: 200px; /* Ajusta el ancho según tus necesidades */
+  width: 200px; 
 }
 
 .search-form button {
   padding: 8px 15px;
-  background-color: #007bff; /* Color del botón de búsqueda */
+  background-color: #007bff; 
   color: #ffffff;
   border: none;
   border-radius: 5px;
@@ -265,7 +261,7 @@ nav {
 
 .login-btn {
   padding: 8px 15px;
-  background-color: #28a745; /* Color del botón de inicio de sesión */
+  background-color: #28a745; 
   color: #ffffff;
   text-decoration: none;
   border: none;
